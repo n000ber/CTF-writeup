@@ -26,6 +26,7 @@ Why 2? It is because on line 17 of the code, advocate.get() will test the URL th
 Hence,we created a flask app that will send a non-SSRF URL during the first GET request and redirect to the 127.0.0.1/flag URL during the second GET request. ![flask poc](img/flask%20poc.png)
 
 Setting up the flask server locally and using ngrok to obtain a publicly-accessible URL.
+
     flask run
     ngrok http 5000
 
