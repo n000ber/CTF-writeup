@@ -1,10 +1,10 @@
-## Super Secure Requests Forwarder (SEETF)
+# SEETF
 
-### Challenge: 
+## Challenge: 
 
 ![challenge description](img/challenge%20desc.png)
 
-### Solution:
+## Solution:
 
 The challenge is to exploit the website with [Server-side Request Forgery](https://portswigger.net/web-security/ssrf).
 
