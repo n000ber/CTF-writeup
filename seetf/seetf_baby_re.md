@@ -11,7 +11,8 @@ After downloading the source code, we ran the `file` command on it and obtained 
 
 We could see that it was a stripped ELF file. This indicates that symbols (references to some type of data like an import, a global variable, or a function), would not be present.
 
-Using GDB's `info function`, we could see that the main function was not present, and can only see the imports from libc. ![no main functions](img/babyre/no%20main.png)
+Using GDB's `info function`, we could see that the main function was not present, and can only see the imports from libc. 
+![no main functions](img/babyre/no%20main.png)
 
 Next, we used Ghidra to decompile the file. From the Symbol Tree, we could see an entry function. ![entry function](img/babyre/entry%20func.png)
 
