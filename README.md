@@ -7,3 +7,5 @@
   - [Best Software](seetf/seetf_best_software.md)
   - [OCBC](seetf/seetf_ocbc.md)
   - [Batnet 1](seetf/seetf_batnet1.md)
+  - [Regex101](seetf/seetf_regex101.md)
+  - [Angry Zeyu2001](seetf/seetf_angryzeyu2001.md)
