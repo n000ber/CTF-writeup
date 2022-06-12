@@ -10,3 +10,4 @@
   - [Regex101](seetf/seetf_regex101.md)
   - [Angry Zeyu2001](seetf/seetf_angryzeyu2001.md)
   - [Sourceless Guessy Web (Baby Flag)](seetf/seetf_sgw_lfi.md)
+  - [Sourceless Guessy Web (RCE Flag)](seetf/seetf_sgw_rce.md)
