@@ -14,3 +14,6 @@
 
 - SPIROS
   - [Basic & Digest Auth](spiros/README.md)
+
+- PicoCTF
+  - [X marks the spot](picoctf/xmarksthesport.md)
