@@ -1,4 +1,4 @@
-# Simcard Enumeration
+# Sim card Enumeration
 
 ## Challenge: 
 
