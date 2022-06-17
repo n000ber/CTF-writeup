@@ -22,12 +22,16 @@ Damn. 84.9k rupees per day for SIM data in SG. That's roughly $8 SGD per day. De
 
 ![cost](img/simcard/cost%20per%20day.png)
 
-I've also checked the mobile number using Oppo's SIM Card Number function. 
+Furthermore, I could validate the package online at its official webpage.
+> Side note: Thoughtful of them to include MBS and SG Flyer.
+
+![able to use in sg](img/simcard/able%20to%20use%20sim%20in%20sg.png)
+
+Returning to the SIM card, I've also checked the mobile number using Oppo's SIM Card Number function. 
 
 ![phone number](img/simcard/checking%20sim%20card%20no.jpg)
 
-Firstly, I noticed that the SIM provider was XL axiata. Searching online, I found that it was the 
-second-largest Telco in Indonesia.
+Moving on, I noticed that the SIM provider was XL axiata. Searching online, I found that it was the second-largest Telco in Indonesia.
 
 ![bg info](img/simcard/bg%20info.png)
 
