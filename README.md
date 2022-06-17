@@ -17,3 +17,6 @@
 
 - PicoCTF
   - [X marks the spot](picoctf/xmarksthespot.md)
+
+- Random Stuff
+  - [Sim card Enumeration](randstuff/simcard.md)
