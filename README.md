@@ -18,5 +18,8 @@
 - PicoCTF
   - [X marks the spot](picoctf/xmarksthespot.md)
 
+- Configurations
+  - [Configuring localhost to have HTTPS](configurations/localhost_to_https.md)
+
 - Random Stuff
   - [Sim card Enumeration](randstuff/simcard.md)
