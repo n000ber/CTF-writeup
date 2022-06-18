@@ -20,6 +20,7 @@
 
 - Configurations
   - [Configuring localhost to have HTTPS](configurations/localhost_to_https.md)
+  - [Changing XAMPP Webroot](configurations/changing_webroot.md)
 
 - Random Stuff
   - [Sim card Enumeration](randstuff/simcard.md)
