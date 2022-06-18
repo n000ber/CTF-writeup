@@ -21,6 +21,7 @@
 - Configurations
   - [Configuring localhost to have HTTPS](configurations/localhost_to_https.md)
   - [Changing XAMPP Webroot](configurations/changing_webroot.md)
+  - [Tmux config file](configurations/tmux_conf.md)
 
 - Random Stuff
   - [Sim card Enumeration](randstuff/simcard.md)
