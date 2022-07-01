@@ -8,7 +8,7 @@
 ## Solution (Timing Attack):
 This challenge requires us to generate the current UNIX timestamp, supplying it in the cookie value `Chase=$timestamp`.
 
-With the following script, we are able to obtain the current UNIX timestamp and send it to the webserver as a cookie.
+With the following script, we were able to obtain the current UNIX timestamp and send it to the webserver as a cookie.
 
 ```
 #!/bin/bash
@@ -36,7 +36,7 @@ Using CyberChef's analyze hash function, we found that the hash could likely be 
 
 ![md5 analysis](img/session/probably%20md5.png)
 
-Next, we decided to hash the first half of the cookie, namely the string `user=azureuser;`. This allowed us to obtain the provided nonce value of `581be0227a4cbba68bcd3ee9f54b6965`. Therefore, we are able to confirm that the nonce is generated using the specified username.
+Next, we decided to hash the first half of the cookie, namely the string `user=azureuser`. This allowed us to obtain the provided nonce value of `581be0227a4cbba68bcd3ee9f54b6965`. Therefore, we were able to confirm that the nonce is generated using the specified username.
 
 ![nonce found](img/session/md5%20first%20half.png)
 
