@@ -14,6 +14,7 @@
 
 - SPIROS
   - [Basic & Digest Auth](spiros/README.md)
+  - [Session Management](spiros/session_management.md)
 
 - PicoCTF
   - [X marks the spot](picoctf/xmarksthespot.md)
