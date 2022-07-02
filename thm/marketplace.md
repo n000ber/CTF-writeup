@@ -187,7 +187,7 @@ Checking the `backup.sh` file, we found the following.
 
 This allowed us to use tar to move laterally to Michael's account.
 
-To exploit tar, we first must create a nc reverse shell payload using msfvenom.
+To exploit tar, we followed this [link](https://mqt.gitbook.io/oscp-notes/tar-wildcard-injection). First, we must create a nc reverse shell payload using msfvenom.
 
 ![netcat rev shell payload](img/marketplace/netcat%20rev%20shell%20payload.png)
 
