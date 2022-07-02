@@ -19,6 +19,9 @@
 - PicoCTF
   - [X marks the spot](picoctf/xmarksthespot.md)
 
+- TryHackMe
+  - [Marketplace](thm/marketplace.md)
+
 - Configurations
   - [Configuring localhost to have HTTPS](configurations/localhost_to_https.md)
   - [Changing XAMPP Webroot](configurations/changing_webroot.md)

