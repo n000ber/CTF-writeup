@@ -18,6 +18,7 @@
 
 - Burpsuite Academy
   - [Referer-based Access Control](burpsuite/img/referer_access_control.md)
+  - [User role can be modified in user profile](burpsuite/user_role_mod.md)
 
 - PicoCTF
   - [X marks the spot](picoctf/xmarksthespot.md)
