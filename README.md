@@ -16,6 +16,9 @@
   - [Basic & Digest Auth](spiros/README.md)
   - [Session Management](spiros/session_management.md)
 
+- Burpsuite Academy
+  - [Referer-based Access Control](burpsuite/img/referer_access_control.md)
+
 - PicoCTF
   - [X marks the spot](picoctf/xmarksthespot.md)
 
