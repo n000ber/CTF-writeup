@@ -19,6 +19,7 @@
 - Burpsuite Academy
   - [Referer-based Access Control](burpsuite/referer_access_control.md)
   - [User role can be modified in user profile](burpsuite/user_role_mod.md)
+  - [User ID controlled by request parameter with data leakage in redirect](burpsuite/user_id_access_control.md)
 
 - PicoCTF
   - [X marks the spot](picoctf/xmarksthespot.md)
