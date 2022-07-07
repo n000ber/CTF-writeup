@@ -17,7 +17,7 @@
   - [Session Management](spiros/session_management.md)
 
 - Burpsuite Academy
-  - [Referer-based Access Control](burpsuite/img/referer_access_control.md)
+  - [Referer-based Access Control](burpsuite/referer_access_control.md)
   - [User role can be modified in user profile](burpsuite/user_role_mod.md)
 
 - PicoCTF
