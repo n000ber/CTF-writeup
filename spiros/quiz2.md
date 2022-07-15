@@ -8,15 +8,15 @@ This quiz consists of 9 parts, to be done within 75 minutes (8 min 20 sec for 1 
 
 |Part|Tested on|Difficulty (upon 5 *)|
 |---|---|--|
-|[1](###-part-1-solution)|Finding hidden directory|*|
-|[2](###-part-2-solution)|Brute-forcing password|*|
-|[3](###-part-3-solution)|Cookie attack (Timestamp)|**|
-|[4](###-part-4-solution)|Cookie attack (Structured tokens)|**|
-|[5](###-part-5-solution)|Referer header|*|
-|[6](###-part-6-solution)|Insecure file naming|**|
-|[7](###-part-7-solution)|Insecure admin validation|****|
-|[8](###-part-8-solution)|Changing request method|****|
-|[9](###-part-9-solution)|Bypassing 2FA|****|
+|[1](#part-1-solution)|Finding hidden directory|*|
+|[2](#part-2-Solution)|Brute-forcing password|*|
+|[3](#part-3-solution)|Cookie attack (Timestamp)|**|
+|[4](#part-4-solution)|Cookie attack (Structured tokens)|**|
+|[5](#part-5-solution)|Referer header|*|
+|[6](#part-6-solution)|Insecure file naming|**|
+|[7](#part-7-solution)|Insecure admin validation|****|
+|[8](#part-8-solution)|Changing request method|****|
+|[9](#part-9-solution)|Bypassing 2FA|****|
 
 ## Solution:
 
