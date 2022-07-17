@@ -16,6 +16,7 @@
   - [Basic & Digest Auth](spiros/README.md)
   - [Session Management](spiros/session_management.md)
   - [Quiz 2](spiros/quiz2.md)
+  - [SQL Cheatsheet](spiros/sql_cheatsheet.md)
   - [Cheatsheet](spiros/cheatsheet.md)
 
 - Burpsuite Academy
