@@ -24,6 +24,7 @@
   - [User role can be modified in user profile](burpsuite/user_role_mod.md)
   - [User ID controlled by request parameter with data leakage in redirect](burpsuite/user_id_access_control.md)
   - [URL-based access control can be circumvented](burpsuite/circumventing_url_based_para.md)
+  - [SQLi UNION attack, retrieving multiple values in a single column](burpsuite/sqli_union_dump.md)
 
 - PicoCTF
   - [X marks the spot](picoctf/xmarksthespot.md)

