@@ -49,6 +49,12 @@ The figure above summarizes the syntax for commenting in various SQL DB. Do note
 -T table_name --columns: show all columns of the db
 -C column1,column2  --dump: dump all the contents of the columns
 ```
+### Second Order SQLi
+
+When data is first inserted into the DB, it is properly sanitised. Afterwards, it may be processed in unsafe ways.
+
+Eg: When a user search for the term `O'Reilly`, the query term was `SELECT author,title,year FROM books WHERE publisher='O''Reilly'`. Notice how the quotation mark after `O` was escaped. However, when the `publisher` was being called in a later query, it might have the search string `SELECT * FROM publisher='O'Reilly'`. This causes second-order SQLi.
+
 ### Good resources
 
 [Burpsuite SQL Cheatsheet](https://portswigger.net/web-security/sql-injection/cheat-sheet)
