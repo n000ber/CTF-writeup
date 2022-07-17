@@ -2,6 +2,15 @@
 
 ## SQL Cheatsheet:
 
+### Determining which type of DB
+
+|Type of DB|Method|
+|---|---|
+|Oracle|`SELECT banner FROM v$version`, `SELECT version FROM v$instance`|
+|Microsoft|`SELECT @@version`|
+|PostgreSQL|`SELECT version()`|
+|MySQL|`SELECT @@version`|
+
 ### Commenting in SQL
 
 ![commenting diagram](img/sql_cheatsheet/sql%20comments.jpg)
