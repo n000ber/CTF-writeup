@@ -31,6 +31,7 @@
 
 - TryHackMe
   - [Marketplace](thm/marketplace.md)
+  - [SQLILAB](thm/sqlilab.md)
 
 - Configurations
   - [Configuring localhost to have HTTPS](configurations/localhost_to_https.md)

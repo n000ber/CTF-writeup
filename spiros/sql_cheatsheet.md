@@ -6,10 +6,11 @@
 
 |Type of DB|Method|
 |---|---|
+|MySQL|`SELECT @@version`|
+|SQLite|`SELECT sqlite_version()`|
 |Oracle|`SELECT banner FROM v$version`, `SELECT version FROM v$instance`|
 |Microsoft|`SELECT @@version`|
 |PostgreSQL|`SELECT version()`|
-|MySQL|`SELECT @@version`|
 
 ### Commenting in SQL
 
