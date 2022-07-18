@@ -31,6 +31,7 @@
 
 - TryHackMe
   - [Marketplace](thm/marketplace.md)
+  - [Gallery666](thm/gallery666.md)
   - [SQLILAB](thm/sqlilab.md)
 
 - Configurations
