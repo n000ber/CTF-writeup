@@ -33,6 +33,7 @@
   - [Marketplace](thm/marketplace.md)
   - [Gallery666](thm/gallery666.md)
   - [SQLILAB](thm/sqlilab.md)
+  - [LazyAdmin](thm/lazy_admin.md)
 
 - Configurations
   - [Configuring localhost to have HTTPS](configurations/localhost_to_https.md)
