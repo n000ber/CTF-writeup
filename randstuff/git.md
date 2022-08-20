@@ -4,12 +4,12 @@
 
 |No.|Title|
 |---|---|
-|1|Basic Git Commands|
-|2|Adding SSH keys to Github|
-|3|Pushing local repos to Github|
-|4|Gitignore files|
-|5|Forking & Pull Requests|
-|6|Git Cheatsheet|
+|1|[Basic Git Commands](#basic-git-commands)|
+|2|[Adding SSH keys to Github](#adding-ssh-keys-to-github)|
+|3|[Pushing local repos to Github](#pushing-local-repos-to-github)|
+|4|[Gitignore files](#gitignore-files)|
+|5|[Forking & Pull Requests](#forking-and-pull-requests)|
+|6|[Git Cheatsheet](#git-cheatsheet)|
 
 ### Basic Git Commands
 
@@ -110,7 +110,7 @@ Thirdly, copy the ssh string ending with `.git`.
 Next, on the terminal, use `git remote add origin git@github.com:wong-qiang/story.git` to set remote repository to that of Github. Finally, use the command `git push origin master` to push the local repository to Github.
 
 
-### Gitignore 
+### Gitignore files
 `.gitignore` is a plain text file where each line contains a pattern for files/directories to ignore
 
 Example:
@@ -121,7 +121,7 @@ node_modules/
 
 Refer to Github's [offical Gitignore repo](https://github.com/github/gitignore) for samples.
 
-### Forking & Pull Requests
+### Forking And Pull Requests
 
 Forking is NOT cloning. Forking is copying a Github repository to your own Github account, making you the owner of the copy of the repository. Cloning is pulling the remote repository to the working directory.
 
