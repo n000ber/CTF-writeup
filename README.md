@@ -42,3 +42,4 @@
 
 - Random Stuff
   - [Sim card Enumeration](randstuff/simcard.md)
+  - [Git/Github Crash Course](randstuff/git.md)

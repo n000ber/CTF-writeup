@@ -1,0 +1,64 @@
+git crash course
+
+To initialise git on local repo (becoming Working Directory):
+	git init
+
+To start tracking changes to all files in Working Directory:
+	git add . 
+
+To look at staging area (to choose which file in Working Directory to commit): 
+	git status
+
+To remove files from staging area:
+	git rm --cached secrets.txt	
+	git rm --cached -r .
+	
+
+To commit files:
+	git commit -m "what changes were made, in present tense"
+
+To see what commit has been made:
+	git log 
+
+To see the modifications b/w current version of the file and last saved point in current repo
+	git diff <filename>
+
+To revert to last committed version of the file:
+	git checkout <filename>
+
+Adding SSH keys to github
+	Add SSH keys to account https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+	ssh-keygen -t ed25519 -C "your_email@example.com"
+	cat /c/Users/WQ/.ssh/id_ed25519.pub
+
+Pushing local repo to github
+	git init
+	git add .
+	git commit -m "Initial Commit" 
+	git remote add origin git@github.com:wong-qiang/story.git
+	git push origin master
+
+.gitignore files
+	https://github.com/github/gitignore
+	.DS_Store
+	node_modules/
+
+Cloning Git project (Pull from Remote repo to working directory)
+	git clone <url>
+
+Creating a new branch:
+	git branch <new branchname>
+	
+Check what branches you have:
+	git branch
+
+switch to other branch:
+	git checkout <branchname>
+
+Merge branches (Pull changes from experimental branches to master):
+	goto master branch: git checkout master
+	git merge <branch_to_merge>
+	git push origin master
+
+Forking (NOT cloning, but copying a repo on github to your own github account. You now own the copy of the repository)
+	If the owner of the forked copy wants the owner of the original repo to merge changes that he made --> create a pull request (Tell original repo owner why the changes should be merged with original repo)
