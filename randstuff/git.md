@@ -117,6 +117,7 @@ Example:
 ```
 .DS_Store
 node_modules/
+.env
 ```
 
 Refer to Github's [offical Gitignore repo](https://github.com/github/gitignore) for samples.
