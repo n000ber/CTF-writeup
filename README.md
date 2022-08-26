@@ -1,5 +1,8 @@
 ## Welcome to CTF Writeups by n000b3r
 
+- Pentesting Notes
+  - [Concise Notes](pentesting/concise_notes.md)
+
 - SEETF
   - [Super Secure Requests Forwarder](seetf/seetf_ssrf.md)
   - [Babyreeee](seetf/seetf_baby_re.md)
