@@ -15,6 +15,9 @@
   - [Sourceless Guessy Web (Baby Flag)](seetf/seetf_sgw_lfi.md)
   - [Sourceless Guessy Web (RCE Flag)](seetf/seetf_sgw_rce.md)
 
+- Security Analytics
+  - [Practical 1](img/practical1/chall%20desc.png)
+
 - SPIROS
   - [Basic & Digest Auth](spiros/README.md)
   - [Session Management](spiros/session_management.md)
