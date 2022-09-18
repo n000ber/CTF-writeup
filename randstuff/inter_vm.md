@@ -6,7 +6,7 @@ When pinging another host on the same subnet (connected via the same VirtualBox 
 
 * Firewall has been disabled.
 * IPv6 has been disabled (some online sources attribute it as a possible cause).
-* Hosts in other subnet are able to ping to both the hosts in the subnet.
+* Hosts in other subnet are able to ping to both hosts in the subnet.
 
 ## Solution
 
@@ -18,6 +18,6 @@ To change the MAC address on a VM, head to the `settings` tab on the VirtualBox.
 
 ![settings](img/inter-vm/1.jpg)
 
-Next, click on the `Network` tab and change the MAC address to a different value. Select `ok` after the changes were made and restart the computer.
+Next, click on the `Network` tab and change the MAC address to a different value. Select `ok` after the changes were made and restart the VM.
 
 ![Change MAC](img/inter-vm/2.jpg)
