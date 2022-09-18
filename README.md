@@ -47,6 +47,7 @@
   - [Configuring localhost to have HTTPS](configurations/localhost_to_https.md)
   - [Changing XAMPP Webroot](configurations/changing_webroot.md)
   - [Tmux config file](configurations/tmux_conf.md)
+  - [Vagrant Cheat Sheet](configurations/vagrant.md)
 
 - Random Stuff
   - [Sim card Enumeration](randstuff/simcard.md)
