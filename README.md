@@ -48,6 +48,7 @@
   - [Changing XAMPP Webroot](configurations/changing_webroot.md)
   - [Tmux config file](configurations/tmux_conf.md)
   - [Vagrant Cheat Sheet](configurations/vagrant.md)
+  - [Import Certificate to Firefox](configurations/import_cert.md)
 
 - Random Stuff
   - [Sim card Enumeration](randstuff/simcard.md)
