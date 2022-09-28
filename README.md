@@ -17,6 +17,7 @@
 
 - Security Analytics
   - [Practical 1](sec_analy/practical1.md)
+  - [Cheatsheet 1](sec_analy/cheatsheet.md)
 
 - SPIROS
   - [Basic & Digest Auth](spiros/README.md)
