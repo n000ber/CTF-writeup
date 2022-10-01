@@ -11,6 +11,7 @@
 |`tftp.source_file`| See if any file is transferred over tftp protocol|
 
 ## GREP/AWK
+
 |Command| Explanation|
 |---|---|
 |`grep UDP netflow-ddos.txt \| awk '{print $5}\| awk -F:'{print $1}' \| sort -u`| Obtain unique source IP address from netflow logs (first field is field 1, NOT field 0)|
@@ -21,6 +22,7 @@
 |`egrep "85.128.40.3\|66.249.72.45" netflow-ddos.txt`| Grep either of the 2 IPs from the netflow logs|
 
 ## Finding Geolocation of a list of IPs
+
 | Command | Explanation |
 | --- | --- |
 | `netcat whois.cynru.com 43 < list01` | Query whois to obtain the country for each IP in list01 |
