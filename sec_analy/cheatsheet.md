@@ -10,6 +10,10 @@
 |`http.request.method == GET && ip.dst == 192.168.0.10`| Finds the GET request to the web server|
 |`tftp.source_file`| See if any file is transferred over tftp protocol|
 
+## Netflow logs format
+
+![netflow format](img/cheatsheet/netflow_format.PNG)
+
 ## GREP/AWK
 
 |Command| Explanation|
@@ -26,8 +30,3 @@
 | Command | Explanation |
 | --- | --- |
 | `netcat whois.cynru.com 43 < list01` | Query whois to obtain the country for each IP in list01 |
-
-| Command | Description |
-| --- | --- |
-| `git status` | List all *new or modified* files |
-| `git diff` | Show file differences that **haven't been** staged |
