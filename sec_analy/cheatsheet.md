@@ -21,9 +21,9 @@
 |`egrep "85.128.40.3\|66.249.72.45" netflow-ddos.txt`| Grep either of the 2 IPs from the netflow logs|
 
 ## Finding Geolocation of a list of IPs
-|Command|Explanation|
-|---|---|
-|`netcat whois.cynru.com 43 < list01`| Query whois to obtain the country for each IP in list01|
+| Command | Explanation |
+| --- | --- |
+| `netcat whois.cynru.com 43 < list01` | Query whois to obtain the country for each IP in list01 |
 
 | Command | Description |
 | --- | --- |
