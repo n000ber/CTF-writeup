@@ -27,7 +27,9 @@ Using `whois` once more, I was able to find the web administrator name as `Nguan
 
 ### Exercise 2.1
 
-Running `nmap`, I found that ports 22 and 80 were open. `OpenSSH 7.2p2` was used by the SSH server. 
+Using `shodan.io`, I found that the encryption algorithms used were `chacha20-poly1305@openssh.com`, `aes128-ctr`...
+
+![encryption algo](img/practical1/encryption_algo.PNG)
 
 Using `Wappalyzer`, I found that the web server is running `Nginx`. Some of the Web technologies used were `Ruby On Rails`, `Vue.js`, `JQuery`.
 
