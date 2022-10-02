@@ -19,7 +19,7 @@
 |Command| Explanation|
 |---|---|
 |`grep UDP netflow-ddos.txt \| awk '{print $5}\| awk -F:'{print $1}' \| sort -u`| Obtain unique source IP address from netflow logs (first field is field 1, NOT field 0)|
-|`grep UDP netflow-ddos.txt \| awk '{print $5}\| awk -F:'{print $1}' \| sort -u \| wc -l`| Number of unique source IP addr from netflow logs|
+|`grep UDP netflow-ddos.txt \| awk '{print $5}\| awk -F: '{print $1}' \| sort -u \| wc -l`| Number of unique source IP addr from netflow logs|
 |`grep -v UDP netflow-ddos.txt`| Filter out UDP packets|
 |`grep -v UDP netflow-ddos.txt \| awk '{print $7} \| grep :80 \| sort \ uniq -c \| sort -rn`| Filters non-udp packets, find the unique destination IP address that has port 80 and sort the results in descending order | 
 |`grep 10.16.54.6 netflow-ddos.txt\| grep -v UDP\| awk '{print $5}' \| awk -F: '{print $1} \| sort \| uniq -c \| sort -rn `| Finds the source IP address that connects to the web server in descending order.|
