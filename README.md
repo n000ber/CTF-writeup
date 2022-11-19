@@ -56,3 +56,5 @@
   - [Git/Github Crash Course](randstuff/git.md)
   - [VLAN vs Int VLAN](randstuff/vlan.md)
   - [Troubleshoot Inter-VM connectivity](randstuff/inter_vm.md)
+  - [Generate required modules for Python script](randstuff/pip.md)
+  - [Cronjob in linux](randstuff/cron.md)
