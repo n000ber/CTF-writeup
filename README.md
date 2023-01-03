@@ -58,3 +58,4 @@
   - [Troubleshoot Inter-VM connectivity](randstuff/inter_vm.md)
   - [Generate required modules for Python script](randstuff/pip.md)
   - [Cronjob in linux](randstuff/cron.md)
+  - [Installing pip2 on linux](randstuff/pip2.md)
